@@ -1,18 +1,29 @@
 #
-# This file contains extra pkgconfig build requirements that don't get picked up but are 
+# This file contains extra pkgconfig build requirements that don't get picked up but are
 # desirable. One name per line, no whitespace.
 #
-gettext
+asciidoctor
 binutils-dev
 buildreq-cmake
 doxygen
 elfutils-dev
+gcc
+gcc-dev
+gcc-libstdc++32
+gcc-libs-math
+gcc-libubsan
+gcc-locale
+gettext
 glibc-dev
 glibc-staticdev
 libedit
 libedit-dev
 libffi-dev
 libffi-staticdev
+libgcc1
+libstdc++
+libunistring
+libunistring-dev
 libxml2-dev
 libxml2-staticdev
 ncurses-dev
@@ -22,11 +33,3 @@ xz-dev
 xz-staticdev
 zlib-dev
 zlib-staticdev
-libstdc++
-libgcc1
-gcc-locale
-gcc-libubsan
-gcc-libstdc++32
-gcc-libs-math
-gcc-dev
-gcc

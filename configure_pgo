@@ -1,2 +1,2 @@
 --enable-static
---enable-shared
+--disable-shared
